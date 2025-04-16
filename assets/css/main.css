@@ -48,7 +48,7 @@ body {
 
 mark {
   background-color: #f3f4f6;
-  color: inherit; }
+  color: #6a0dad; }
 
 input::-moz-focus-inner {
   border: 0;
