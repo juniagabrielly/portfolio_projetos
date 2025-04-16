@@ -47,7 +47,7 @@ body {
   -webkit-text-size-adjust: none; }
 
 mark {
-  background-color: transparent;
+  background-color: #f3f4f6;
   color: inherit; }
 
 input::-moz-focus-inner {
@@ -1071,7 +1071,7 @@ select {
     color: #3d4449;
     background: #ffffff; }
   select:focus::-ms-value {
-    background-color: transparent; }
+    background-color: #f3f4f6; }
   select::-ms-expand {
     display: none; }
 
