@@ -1,227 +1,439 @@
 <!DOCTYPE HTML>
-<!--
-	Portfólio by Júnia Gabrielly
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Portfólio by Júnia Gabrielly</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+	<title>Júnia Gabrielly | Business Intelligence Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<style>
+		#banner {
+			display: flex;
+			align-items: center;
+			gap: 3rem;
+		}
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+		#banner .content {
+			flex: 1;
+		}
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index.html" class="logo"><strong>Portfólio</strong> by Júnia Gabrielly Alves Castro</a>
-									<ul class="icons">
-										
-										<li><a href="https://www.facebook.com/junia.gabrielly.1" class="icon brands fa-facebook-f"><span class="https://www.facebook.com/junia.gabrielly.1">Facebook</span></a></li>
-										<li><a href="https://www.instagram.com/juniagabriellyac/" class="icon brands fa-instagram"><span class="https://www.instagram.com/juniagabriellyac/">Instagram</span></a></li>
-										
+		#banner .image.object {
+			max-width: 280px;
+			margin: 0 auto;
+		}
+
+		#banner .image.object img {
+			width: 100%;
+			height: 280px;
+			object-fit: cover;
+			border-radius: 50%;
+			box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+		}
+
+		.hero-subtitle {
+			font-size: 1.15rem;
+			line-height: 1.7;
+			color: #555;
+			margin-top: 1rem;
+		}
+
+		.tags {
+			margin: 1.5rem 0;
+		}
+
+		.tags span {
+			display: inline-block;
+			margin: 0.25rem;
+			padding: 0.45rem 0.75rem;
+			border-radius: 20px;
+			background: #f2f4f8;
+			font-size: 0.85rem;
+			font-weight: 600;
+		}
+
+		.project-summary {
+			font-size: 0.95rem;
+			line-height: 1.7;
+		}
+
+		.project-block {
+			margin-top: 1rem;
+		}
+
+		.project-block h4 {
+			margin-bottom: 0.3rem;
+			color: #2f4f6f;
+		}
+
+		.contact-highlight {
+			background: #f7f9fb;
+			padding: 2rem;
+			border-radius: 16px;
+			text-align: center;
+		}
+
+		@media screen and (max-width: 980px) {
+			#banner {
+				flex-direction: column-reverse;
+				text-align: center;
+			}
+
+			#banner .image.object {
+				max-width: 220px;
+			}
+
+			#banner .image.object img {
+				height: 220px;
+			}
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+<div id="wrapper">
+	<div id="main">
+		<div class="inner">
+
+			<header id="header">
+				<a href="index.html" class="logo">
+					<strong>Júnia Gabrielly</strong> | Business Intelligence Portfolio
+				</a>
+				<ul class="icons">
+					<li>
+						<a href="https://br.linkedin.com/in/juniagabrielly16bh?trk=public_profile_browsemap" class="icon brands fa-linkedin">
+							<span class="label">LinkedIn</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/juniagabrielly" class="icon brands fa-github">
+							<span class="label">GitHub</span>
+						</a>
+					</li>
+				</ul>
+			</header>
+
+			<section id="banner">
+				<div class="content">
+					<header>
+						<h1>Business Intelligence Analyst</h1>
+						<p class="hero-subtitle">
+							Transformo dados em decisões estratégicas por meio de dashboards executivos,
+							modelagem de dados, ETL, SQL e storytelling analítico.
+						</p>
+					</header>
+
+					<p>
+						Formada em Matemática e pós-graduanda em Engenharia de Dados pela PUC Minas,
+						atuo na construção de soluções analíticas que conectam dados, negócio e tomada de decisão.
+					</p>
+
+					<div class="tags">
+						<span>Power BI</span>
+						<span>SQL Server</span>
+						<span>ETL</span>
+						<span>Data Modeling</span>
+						<span>Python</span>
+						<span>Data Storytelling</span>
+					</div>
+
+					<ul class="actions">
+						<li><a href="#projetos" class="button big">Ver projetos</a></li>
+						<li><a href="#contato" class="button big">Contato</a></li>
+					</ul>
+				</div>
+
+				<span class="image object">
+					<img src="images/copia.jpeg" alt="Foto profissional de Júnia Gabrielly" />
+				</span>
+			</section>
+
+			<section>
+				<header class="main">
+					<h1>Sobre mim</h1>
+				</header>
+
+				<p>
+					Sou Analista de Business Intelligence com formação em Matemática e experiência em Power BI,
+					SQL, SQL Server, Excel avançado, ETL, modelagem de dados e dashboards executivos.
+				</p>
+
+				<p>
+					Minha atuação combina pensamento analítico, visão de negócio e comunicação visual para transformar
+					dados em análises claras, estratégicas e acionáveis. Atualmente, estou aprofundando minha formação
+					em Engenharia de Dados, ampliando minha visão sobre arquitetura, pipelines e o ciclo completo dos dados.
+				</p>
+			</section>
+
+			<section>
+				<header class="major">
+					<h2>Competências Técnicas</h2>
+				</header>
+
+				<div class="features">
+					<article>
+						<span class="icon solid fa-chart-line"></span>
+						<div class="content">
+							<h3>Business Intelligence</h3>
+							<ul>
+								<li>Dashboards executivos</li>
+								<li>KPIs estratégicos</li>
+								<li>Data Storytelling</li>
+								<li>Análise de indicadores</li>
+							</ul>
+						</div>
+					</article>
+
+					<article>
+						<span class="icon solid fa-database"></span>
+						<div class="content">
+							<h3>Dados e ETL</h3>
+							<ul>
+								<li>SQL Server</li>
+								<li>MySQL</li>
+								<li>SQLite</li>
+								<li>Processos de ETL</li>
+							</ul>
+						</div>
+					</article>
+
+					<article>
+						<span class="icon solid fa-chart-pie"></span>
+						<div class="content">
+							<h3>Power BI</h3>
+							<ul>
+								<li>Power Query</li>
+								<li>DAX</li>
+								<li>Linguagem M</li>
+								<li>Modelagem de dados</li>
+							</ul>
+						</div>
+					</article>
+
+					<article>
+						<span class="icon solid fa-code"></span>
+						<div class="content">
+							<h3>Python e Análise</h3>
+							<ul>
+								<li>Pandas</li>
+								<li>NumPy</li>
+								<li>Tratamento de dados</li>
+								<li>Análises exploratórias</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section id="projetos">
+				<header class="major">
+					<h2>Projetos em Destaque</h2>
+				</header>
+
+				<div class="posts">
+
+					<article>
+						<a href="#" class="image">
+							<img src="images/project_power_bi.jpg" alt="Dashboard de educação na América do Sul" />
+						</a>
+
+						<h3>Educational Inequality in South America</h3>
+						<p><strong>Power BI | Power Query | Data Modeling | Storytelling</strong></p>
+
+						<div class="project-summary">
+							<p>
+								Dashboard analítico desenvolvido para comparar indicadores educacionais entre países da
+								América do Sul, conectando acesso à internet, escolaridade, alfabetização e investimento público.
+							</p>
+
+							<div class="project-block">
+								<h4>Problema de negócio</h4>
+								<p>
+									Entender como desigualdades digitais e educacionais se comportam entre países sul-americanos
+									e como esses indicadores podem apoiar análises comparativas e políticas públicas.
+								</p>
+							</div>
+
+							<div class="project-block">
+								<h4>Solução</h4>
+								<p>
+									Criação de um dashboard interativo em Power BI com indicadores, filtros por ano e país,
+									mapa geográfico, análise comparativa e visual de correlação.
+								</p>
+							</div>
+
+							<div class="project-block">
+								<h4>Insights</h4>
+								<ul>
+									<li>Chile apresentou destaque no avanço do acesso à internet a partir de 2015.</li>
+									<li>Países com maior média de anos de estudo tendem a apresentar maior taxa de alfabetização.</li>
+									<li>Foram identificadas diferenças relevantes entre investimento, acesso digital e educação.</li>
 								</ul>
-								
-								</header>
+							</div>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Olá, seja muito bem-vindo (a) ao meu portfólio de Análise de Dados<br /></h1>
-											
-									</div>
-									<span class="image object">
-										<img src="images/copia.jpeg" alt="" />
-									</span>
-								</section>
-<!-- Sobre Mim -->
-								<section>
-									<header class="main">
-										<h1>Sobre mim</h1>
-									</header>
+							<div class="project-block">
+								<h4>Valor gerado</h4>
+								<p>
+									O projeto demonstra capacidade de transformar dados públicos em uma análise executiva,
+									visual e orientada à tomada de decisão.
+								</p>
+							</div>
+						</div>
 
-									<!-- Content -->
-										<h3 id="content">Olá, meu nome é Júnia. Sou formada em Matemática e sou analista de Business Intelligence, utilizo ferramentas como Power BI, SQL, VBA e Python para transformar dados em soluções estratégicas. Nesta página, compartilho minhas experiências profissionais e projetos desenvolvidos com dados públicos, que demonstram minha capacidade de aplicar conceitos de Análise de Dados na resolução de desafios de negócios. Atualmente, também estou me especializando em ferramentas de Engenharia de Dados, ampliando minha atuação no ciclo completo de dados. Fique à vontade para entrar em contato pelos links no final da página. </h3>
-										<p></p>
-							</section>
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Habilidades</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-											
-												<h3>Excel</h3>
-												<ul>
-																<li>Power Query</li>
-																<li>ETL</li>
-																<li>Dashboards</li>
-																<li>Funções Lógicas</li>
-																
-															</ul>
-										</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Banco de Dados Relacional</h3>
-												<ul>
-																<li>SQLite</li>
-                                                                                                                                <li>SQL Server</li>
-                                                                                                                               <li>MYSQL</li>
-																															
-															</ul>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Power BI</h3>
-												<ul>
-																<li>Power Query</li>
-                                                                <li>ETL</li>	
-                                                                <li>Formatação de visuais e Storyteling</li>
-<li>Linguagem DAX</li>
-<li>Linguagem M</li>
-                                              													
-															</ul>
+						<ul class="actions">
+							<li>
+								<a href="https://github.com/juniagabrielly/south-america-education-powerbi-unesco.git" class="button">
+									Ver projeto
+								</a>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<a href="#" class="image">
+							<img src="images/excel_capa.jpg" alt="Dashboard de marketing para e-commerce" />
+						</a>
+
+						<h3>Marketing Insights for E-Commerce</h3>
+						<p><strong>Excel | Power Query | ETL | Dashboard</strong></p>
+
+						<div class="project-summary">
+							<p>
+								Projeto desenvolvido para analisar dados de vendas, comportamento de compra e desempenho de produtos
+								em uma operação de e-commerce.
+							</p>
+
+							<div class="project-block">
+								<h4>Problema de negócio</h4>
+								<p>
+									Identificar produtos com maior volume de vendas, maior faturamento e diferenças de desempenho
+									por gênero, cidade e categoria.
+								</p>
+							</div>
+
+							<div class="project-block">
+								<h4>Solução</h4>
+								<p>
+									Realização de ETL no Power Query, tratamento das datas, criação de colunas calculadas,
+									modelagem da base e construção de dashboard no Excel.
+								</p>
+							</div>
+
+							<div class="project-block">
+								<h4>Insights</h4>
+								<ul>
+									<li>O produto mais vendido não foi necessariamente o produto com maior faturamento.</li>
+									<li>A análise permitiu comparar comportamento de compra por cidade e gênero.</li>
+									<li>Foram criadas métricas de receita considerando quantidade, desconto, imposto e valor final.</li>
+								</ul>
+							</div>
+
+							<div class="project-block">
+								<h4>Valor gerado</h4>
+								<p>
+									O projeto evidencia capacidade de estruturar dados comerciais e gerar insights para decisões
+									de marketing, vendas e performance de produtos.
+								</p>
+							</div>
+						</div>
+
+						<ul class="actions">
+							<li>
+								<a href="https://github.com/juniagabrielly/primeiro_projeto_excel.git" class="button">
+									Ver projeto
+								</a>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<a href="#" class="image">
+							<img src="images/sql.jpg" alt="Projeto SQL com dados da Olist" />
+						</a>
+
+						<h3>SQL Analysis | Brazilian E-Commerce</h3>
+						<p><strong>SQL | SQLite | DBeaver | Data Analysis</strong></p>
+
+						<div class="project-summary">
+							<p>
+								Projeto de análise com SQL utilizando dados públicos da Olist para responder perguntas de negócio
+								sobre vendas, pedidos, clientes e comportamento do e-commerce.
+							</p>
+
+							<div class="project-block">
+								<h4>Problema de negócio</h4>
+								<p>
+									Explorar um banco relacional de e-commerce para extrair informações relevantes sobre operação,
+									clientes e vendas.
+								</p>
+							</div>
+
+							<div class="project-block">
+								<h4>Solução</h4>
+								<p>
+									Construção de consultas SQL com joins, agrupamentos, filtros, ordenações e funções agregadas
+									para responder perguntas analíticas.
+								</p>
+							</div>
+
+							<div class="project-block">
+								<h4>Competências demonstradas</h4>
+								<ul>
+									<li>Consultas SQL em banco relacional.</li>
+									<li>Uso de COUNT, SUM, AVG, MAX e MIN.</li>
+									<li>Aplicação de GROUP BY, ORDER BY, LIMIT, filtros e operadores lógicos.</li>
+								</ul>
+							</div>
+
+							<div class="project-block">
+								<h4>Valor gerado</h4>
+								<p>
+									O projeto demonstra domínio da base analítica necessária para investigação de dados,
+									extração de informações e apoio à tomada de decisão.
+								</p>
+							</div>
+						</div>
+
+						<ul class="actions">
+							<li>
+								<a href="https://github.com/juniagabrielly/SQL.git" class="button">
+									Ver projeto
+								</a>
+							</li>
+						</ul>
+					</article>
+
+				</div>
+			</section>
+
+			<section id="contato">
+				<div class="contact-highlight">
+					<header class="main">
+						<h2>Vamos conversar?</h2>
+					</header>
+
+					<p>
+						Estou aberta a conexões, oportunidades e projetos relacionados a Business Intelligence,
+						Analytics, Power BI e Engenharia de Dados.
+					</p>
+
+					<ul class="contact">
+						<li class="icon brands fa-linkedin">
+							<a href="https://br.linkedin.com/in/juniagabrielly16bh?trk=public_profile_browsemap">LinkedIn</a>
+						</li>
+						<li class="icon solid fa-envelope">
+							<a href="mailto:juniacastro.data@gmail.com">juniacastro.data@gmail.com</a>
+						</li>
+						<li class="icon brands fa-github">
+							<a href="https://github.com/juniagabrielly">GitHub</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+		</div>
+	</div>
 </div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Python</h3>
-												<ul>
-																<li>Pandas</li>
-                                                                <li>Numpy</li>	
-                                                     
-                                              													
-															</ul>
-										</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Matemática Avançada</h3>
-												<h5></h5>
-											</div>
-										</article>
-									</div>
-								</section>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Projetos</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/project_power_bi.jpg" alt="" /></a>
-											<h3>Public Investment, Schooling, and Internet Access in South America</h3>
-											<h5>Tools Used</h5>
-															<ul>
-																<li>Power BI</li>
-																<li>Excel</li>
-																														</ul>
-											<p>
-This dashboard was created to practice skills in Power BI and data analysis, as well as to improve my English proficiency by working with content in the language.
-The data comes from the platform Our World in Data, which provides research and global development indicators. I chose educational data because I have an affinity for and interest in the topic.
-The dashboard compares key indicators from several South American countries, including:
-<ul>
-<li>Internet access rate</li>
-<li>	Average years of schooling</li>
-<li>Literacy rate</li>
-<li>Government investment in education</li>
-</ul>
-At the top of the dashboard, there are filters for Year and Country, which are the only dimension tables and connect to all fact tables. Since many years lacked complete data for all countries, I filtered the dashboard to the period from 1996 to 2022 for more consistent analysis.
-Just below the filters, there are 4 KPI cards showing the average rates of the four main educational indicators for the selected countries.
- Charts Used
-<ul> 
-<li>Clustered column and line chart: Displays the average internet access rate by country (bars). The purple line shows the overall annual average (regardless of the selected country), making it possible to compare individual countries to the regional average. I highlighted Chile, which has led this indicator since 2015, by adding an orange line that represents the difference between Chile’s average internet access rate and the average of the other countries — working as a reference line to assess inequality.</li>
-<li>Map with bubble chart: Provides a geographic view of the countries, with the bubble size representing public investment in education. Latitude and longitude data were manually added in Power Query and merged with the country dimension table.</li>
-<li>Scatter plot (correlation chart): Illustrates the relationship between average years of schooling and the average literacy rate. Each point represents a South American country. The chart reveals that countries with higher average years of schooling also tend to have higher literacy rates — suggesting a moderate positive correlation between the two variables.</li></ul>
-This project was a great opportunity to apply Power BI concepts, data storytelling, and comparative analysis, while also developing data visualization skills and practicing English in a meaningful context. The analysis revealed important disparities among South American countries and reinforced the relevance of public policies focused on education and digital access.
- </p>
-									
-											<ul class="actions">
-												<li><a href="https://github.com/juniagabrielly/south-america-education-powerbi-unesco.git" class="button">Saiba mais</a></li>
-											</ul>
-																	</div>
-</header>																	
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/excel_capa.jpg" alt="" /></a>
-											<h3>Marketing Insights for E-Commerce Company</h3>
-											<h5>Ferramentas Utilizadas</h5>
-															<ul>
-																<li>Excel</li>
-																<li>ETL no Power Query</li>
-																
-																</ul>
-											<p>
-Eu usei o Excel para resolver o problema de negócio do banco de dados (https://www.kaggle.com/datasets/rishikumarrajvansh/marketing-insights-for-e-commerce-company). Primeiramente, realizei o ETL no Power Query.
- Modifiquei as datas de acordo com a localidade, mudei os parâmetros das colunas, mesclando tabelas relacionais juntamente com a tabela Online_Sales.
- Criei outras colunas para obter o resultado da compra com a quantidade, cupom de desconto, imposto e a receita final (Tabela_Funções_Análise).
- Por fim, criei tabelas e gráficos dinâmicos para a criação do Dashboard. Alguns resultados importantes: O produto Google sunglasses foi o mais vendido em 2019 para ambos os gêneros e cidades. Porém, o produto que obteve maior faturamento no mesmo ano
- foi o Nest Learning Thermostat 3rd Gen-USA - Stainless Steel para ambos os gêneros e cidades, exceto para Washington DC. </p>
- 
-											<ul class="actions">
-												<li><a href="https://github.com/juniagabrielly/primeiro_projeto_excel.git" class="button">Saiba mais</a></li>
-											</ul>
-																	</div>
-</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/sql.jpg" alt="" /></a>
-											<h3>SQL</h3>
-											<h5>Ferramentas Utilizadas</h5>
-															<ul>
-																<li>DBeaver</li>
-																<li>Banco de dados: SQLite</li>
-																														</ul>
-											<p>
-Eu usei a SQL para fazer consultas no banco de dados SQLite. Os dados são do Link: Olist ( https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce ), esse conjunto de dados tem o MER que
-é demonstrado a relação entre as tabelas. Para a pesquisa das perguntas usei funções agregadoras como COUNT, SUM, AVG, MAX, MIN, DISTINC. Operações Matemáticas com agrupamentos
-com o GROUP BY. Operadores de comparação: =, <, >, <=, >=. Operações de lógica: AND, OR. Outras operações como LIMIT, IS NULL, ORDER BY. </p>
- 
-											<ul class="actions">
-												<li><a href="https://github.com/juniagabrielly/SQL.git" class="button">Saiba mais</a></li>
-											</ul>
-																	</div>
-																										</section>
-								<section>
-									<header class="main">
-										<h3>Sinta-se a vontade para entrar em contato</h3>
-									</header>
-<!-- Section -->
-								<section>
-									<header class="major">
-									
-									</header>
-									
-									<ul class="contact">
-										<b>
-										<li class="icon brands fa-linkedin"><a href="https://br.linkedin.com/in/juniagabrielly16bh?trk=public_profile_browsemap">LinkedIn</a></li>
-								        <li class="icon solid fa-envelope"><a> juniacastro.data@gmail.com </a></li>
-								
-										</b>
-									</ul>
-								</section>
-									
-							
-
-				
-	</body>
+</body>
 </html>
